@@ -10,6 +10,7 @@ public class HelloMandy {  // "HelloMandy" 是一个标识符(identifier)
             //不换行输入
             System.out.print("你好！");
             System.out.println("Hello,World! Hi,Mandy!");
+            System.out.println("Hello, world");
             // we will get:
             // Hello,Imooc! Hi,Mandy
             //你好！Hello,World! Hi,Mandy
