@@ -1,6 +1,6 @@
 package com.mandy;
 
-public class HelloMandy {
+public class HelloMandy {  // "HelloMandy" 是一个标识符(identifier)
 
     // class HelloMandy{} can also work
 // public class(定义类) HelloMandy(类的名字){} 是一个类，public static void main(String[] args){}是嵌套在类里面的主方法
