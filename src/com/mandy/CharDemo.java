@@ -20,5 +20,10 @@ public class CharDemo {
         System.out.println("ch1="+ch2);
         //ch1=￿
         //ch1=
+
+        //定义变量存放unicode编码表示的字符
+        char c='\u005d';
+        System.out.println("c="+c);
+        //c=]
     }
 }
