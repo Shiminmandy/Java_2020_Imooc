@@ -25,5 +25,11 @@ public class CharDemo {
         char c='\u005d';
         System.out.println("c="+c);
         //c=]
+
+        //定义一个整型变量n,值为98
+        int n=98;
+        //定义一个char类型的变量ch3, 将变量n赋值给ch,然后输出ch的值
+        char ch3=(char)n; // int 转化为字符型char, 想要进行强制转换加(char)
+        System.out.println("ch="+ch);
     }
 }
