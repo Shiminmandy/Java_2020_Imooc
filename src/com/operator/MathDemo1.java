@@ -19,6 +19,6 @@ public class MathDemo1 {
         y=(--x)+5;
         System.out.println("x="+x+",y="+y);//x=3,y=8 先自减后运算
 
-        
+
     }
 }
