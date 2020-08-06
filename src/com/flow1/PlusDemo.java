@@ -11,6 +11,6 @@ public class PlusDemo {
             n++;
             System.out.println("1到"+(n-1)+"的累加和为 :"+sum);
         }
-
+        
     }
 }
