@@ -29,3 +29,11 @@ public class ArrayDemo {
     }
 
 }
+/*
+ch数组的长度为：4
+intArray数组的第2个元素为：0
+strArray数组的第5个元素为：null
+floatArray数组的最后一个元素为：0.0
+整型数组intArray的元素为：
+1   2   3   4   5 
+ */
