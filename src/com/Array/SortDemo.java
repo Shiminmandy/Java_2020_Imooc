@@ -10,7 +10,7 @@ public class SortDemo {
         }
         System.out.println();
         int temp;
-        for(int i=0;i<a.length;i++){
+        for(int i=0;i<a.length-1;i++){
             //内重循环控制每趟排序
             for(int j=0;j<a.length-i-1;j++){
                 if(a[j]>a[j+1]){
