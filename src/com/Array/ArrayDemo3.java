@@ -26,5 +26,32 @@ public class ArrayDemo3 {
         floatArray[2]=new float[5];//第一行有五列
         System.out.println(floatArray[0][0]);
         //System.out.println(floatArray[0][4]); 下标越界
+        //二维数组的初始化
+        int[][] num={{1,2,3},{4,5,6},{7,8,9}};
+        System.out.println("num数组第1行第2列的元素为："+num[0][1]);
+        System.out.println("num数组的行数为："+num.length);
+        System.out.println("num数组的列数为："+num[0].length);
+        int[][] num1={{12,34},{23,34,54},{23,54}};
+        System.out.println("num1数组的第1行的列数为："+num1[0].length);
+        //循环输出二维数组的内容
+        for(int i=0;i<num1.length;i++){
+            for(int j=0;j<num1[i].length;j++){
+                System.out.print(num1[i][j]+"   ");
+            }
+            System.out.println();
+        }
+
     }
 }
+/*
+intArray数组的第3行第2列的元素为：0
+intArray数组的第2行第3列的元素为：9
+0.0
+num数组第1行第2列的元素为：2
+num数组的行数为：3
+num数组的列数为：3
+num1数组的第1行的列数为：2
+12   34
+23   34   54
+23   54 
+ */
