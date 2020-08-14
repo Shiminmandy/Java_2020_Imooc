@@ -1,5 +1,5 @@
 package com.method;
-
+//无参带返回值
 public class Rectangle {
     //求长方形面积的方法
     public int area(){
