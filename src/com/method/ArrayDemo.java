@@ -1,4 +1,4 @@
-package com.Array;
+package com.method;
 
 public class ArrayDemo {
     public static void main(String[] args){
