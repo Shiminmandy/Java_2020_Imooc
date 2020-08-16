@@ -21,8 +21,17 @@ public class SortDemo {
             }
         }
         System.out.println("从小到大排序后的数组元素为：");
+        //增强型for循环
         for(int n:a){
             System.out.print(n+"   ");
         }
+        //增强型for循环例子
+        int[] newArray={1,2,3,4,5,6,7};
+        int total=0;
+        //遍历一遍newArray,并把每一个值赋给x
+        for(int x:newArray){
+            total+=x;
+        }
+        System.out.println("total="+total);//total=28
     }
 }
