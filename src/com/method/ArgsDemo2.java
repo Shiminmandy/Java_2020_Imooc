@@ -3,7 +3,7 @@ package com.method;
 
 /**
  * 关于可变参数列表和重载的问题
- * 
+ *
  */
 
 public class ArgsDemo2 {
