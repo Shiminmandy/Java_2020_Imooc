@@ -5,6 +5,9 @@ import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import java.util.Scanner;
 
 public class DataHomework {
+    /**
+     * 提示信息
+     */
     public void displayMenu(){
         System.out.println("***************************************");
         System.out.println("           1--初始化数学成绩");
@@ -15,6 +18,11 @@ public class DataHomework {
         System.out.println("           0--退出");
         System.out.println("***************************************");
     }
+
+    /**
+     * 自定义数组长度，从键盘接收数据，初始化成绩
+     * @return 返回成绩数组
+     */
     public float[] initScore(){
         Scanner sc=new Scanner(System.in);
         System.out.println("请输入要储存的数学成绩的数量：");
@@ -39,6 +47,12 @@ public class DataHomework {
         }
         return a;
     }
+
+    /**
+     * 求平均成绩
+     * @param f (成绩)数组
+     * @return 返回平均分
+     */
     public float averag(float[] f){
         float avg=0;
         float sum=0;
@@ -48,6 +62,12 @@ public class DataHomework {
         }
         return avg;
     }
+
+    /**
+     * 数出成绩大于85分人数
+     * @param f
+     * @return接收人数
+     */
     public int count(float[] f){
         int people=0;
         for(float n:f){
@@ -57,6 +77,13 @@ public class DataHomework {
         }
         return people;
     }
+
+    /**
+     * 更新数据，从键盘接收位置和新成绩
+     * @param f 数组
+     * @param index 要修改的数据位置
+     * @param newScore 新的成绩
+     */
     public void update(float[] f, int index, float newScore){
 //        Scanner sc=new Scanner(System.in);
 //        System.out.println("请输入要修改数据的位置(从0开始)：");
@@ -67,6 +94,11 @@ public class DataHomework {
         f[index]=newScore;
 
     }
+
+    /**
+     * 显示所有成绩
+     * @param f 数组
+     */
     public void displayAllScore(float[] f){
         System.out.println("成绩为：");
         for(float n:f){
